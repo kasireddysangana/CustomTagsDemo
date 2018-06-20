@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.1</jsp-version>
+	<tag>
+		<name>Wish</name>
+		<tag-class>com.wavelabs.ctag.MessageTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>message</name>
+		</attribute>
+
+	</tag>
+	<tag>
+		<name>Kasi</name>
+		<tag-class>com.wavelabs.ctag.KasiTag</tag-class>
+		<body-content>empty</body-content>
+	</tag>
+	
+	<tag>
+		<name>displayEmployee</name>
+		<tag-class>com.wavelabs.ctag.DisplayEmployeeTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>emp</name>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	<tag>
+		<name>Wish1</name>
+		<tag-class>com.wavelabs.ctag.MessageTag1</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<name>mysize</name>
+		</attribute>
+		<attribute>
+			<name>myfont</name>
+		</attribute>
+		<attribute>
+			<name>mycolor</name>
+		</attribute>
+		<attribute>
+			<name>repeatFor</name>
+		</attribute>
+	</tag>
+</taglib>
